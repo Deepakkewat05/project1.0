@@ -1,0 +1,24 @@
+
+p{
+    color: aliceblue;
+}
+
+
+body {
+  background-image: url(images/32.jpg);
+}
+
+p {
+    animation-duration: 60s;
+    animation-iteration-count:infinite ;
+    animation-name: n1;
+
+}
+
+@keyframes n1 {
+    from {color: green;}
+    to {color: yellow;}
+
+    from {margin-left: 0px;}
+    to {margin-left: 1000px;}
+}
