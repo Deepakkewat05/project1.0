@@ -1,24 +1,38 @@
+.bgimg{
+   background-image:url(images/sd.jpg) ;
+   background-size: cover;
+   background-attachment: fixed;
+   width: 100%;
+   height: 950px;
+}
 
-p{
-    color: aliceblue;
+.headerset{
+    padding: 300px;
+    box-sizing: border-box;
+margin-bottom: 500px;    
+}
+
+.headerset h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: cursive;
+    margin-top: 350px;
+    transition: 10s;
+}
+.headerset h6 {
+    font-size: 30px;
+    padding: 20px;
 }
 
 
-body {
-  background-image: url(images/32.jpg);
+
+
+.headerset h1:hover {
+    font-size: 54px;
+    color: antiquewhite;
+   
 }
-
-p {
-    animation-duration: 30s;
-    animation-iteration-count:infinite ;
-    animation-name: n1;
-
-}
-
-@keyframes n1 {
-    from {color: green;}
-    to {color: yellow;}
-
-    from {margin-left: 0px;}
-    to {margin-left: 1000px;}
+.headerset h6:hover {
+    font-size: 40px;
+    color: aqua;
 }
